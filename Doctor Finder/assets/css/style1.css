@@ -1,0 +1,533 @@
+/*****************************************************************************************
+*****************************************************************************************
+Project Name: LMS
+Author Name: al bakin tushar
+Client Name: LEDP-2020 D1
+Project Date: 3-07-2020
+Project Type: Education
+Project Section:
+				1.Top Header
+				2.Nav Header
+				3.Slider Section
+				4.About Section
+				5.Courses Section
+				6.Facts Section
+				7.Recent News Section
+				8.News Letter Section
+				9.Footer Section
+**********************************************************************************************
+**********************************************************************************************/
+
+/**********************************************************************************************
+					Base CSS Start
+***********************************************************************************************/
+*,body{
+	padding: 0;
+	margin: 0;
+}
+h2{
+	font-weight: bold;
+}
+.row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+ul{
+	margin-bottom: 0px !important;
+}
+.card-body{
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.owl-carousel{
+	position: relative;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	top: 45%;
+	right: -5%;
+}
+.font_35{
+	font-size: 35px;
+	color: #56ab2f;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+	border: none;
+	background: none;
+	color: black;
+}
+.owl-theme .owl-nav [class*=owl-]:focus{
+	border: none;
+	background: none;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/**********************************************************************************************
+					Base CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Common CSS Start
+***********************************************************************************************/
+.first_color{
+	color: #56ab2f;
+}
+.second_color{
+	color: #1e1d1d;
+}
+.first_bg_color{
+	background-color: #56ab2f;
+}
+.second_bg_color{
+	background-color: #1e1d1d;
+}
+.commn_margin{
+	margin-top: 80px;
+}
+.custom_left_margin{
+	margin-left: 7%;
+	margin-right: 0px !important
+}
+.custom_padding_2{
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+.secondary-dark-blue-bg
+{
+	background-color: #fff;
+}
+/**********************************************************************************************
+					Common CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Top Header CSS Start
+***********************************************************************************************/
+#top{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	z-index:22222;
+	position: sticky;
+	top: -60px;
+}
+.top_list{
+	list-style: none;
+}
+.top_list li{
+	padding-left: 10px;
+}
+.top_list li:first-child{
+	padding-left: 0px !important;
+}
+.login_border{
+	padding-left: 10px;
+	color: #c7c7c7;
+}
+/**********************************************************************************************
+					Top Header CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Nav Header CSS Start
+***********************************************************************************************/
+.custom_nv_bg_col{
+	background: rgba(254, 255, 255, .8);
+}
+.navsection{
+	
+	position: sticky;
+	top: 0;
+	z-index: 1111;
+
+}
+.navbar{
+	padding-left: 0px !important;
+	z-index: 11111;
+}
+.nav-link{
+	font-weight: bold !important;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+/**********************************************************************************************
+					Nav Header CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Slider Section CSS Start
+***********************************************************************************************/
+.slider{
+	margin-top: -120px;
+	z-index: -1111;
+}
+.btn {
+	border-radius: 0px !important;
+	font-weight: bold;
+}
+
+.carousel-caption {
+	width: 450px;
+	height: 300px;
+    position: absolute; 
+    bottom: 25%; 
+    left: 55%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.btn-success-color{
+	color: ;
+}
+/**********************************************************************************************
+					Slider Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					About Section CSS Start
+***********************************************************************************************/
+.custom_h2{
+	font-size: 36px !important;
+}
+.custom_padding{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.about_bg{
+	background-image: url(../img/acadimy.png);
+	height: 90%;
+	width: 100%;
+	margin-left: 19%;
+	background-repeat: no-repeat;
+}
+.principle_img{
+	height: 83%;
+	width: 40%;
+	margin-top: 15%;
+	margin-left: -10%;
+}
+/**********************************************************************************************
+					About Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Courses Section CSS Start
+***********************************************************************************************/
+.courses{
+	padding-top: 80px;
+}
+.course_content{
+	padding-bottom: 50px;
+}
+.card-body{
+	border: 1px solid #56ab2f;
+	border-top: none;
+}
+.list{
+	list-style: none;
+}
+.list-item{
+	border: 1px solid #56ab2f;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+.list-item:nth-child(1){
+	border-left: none;
+}
+.list-item:nth-child(2){
+	border-left: none;
+	border-right: none;
+	background-color: #56ab2f;
+	color: white;
+}
+.list-item:nth-child(3){
+	border-right: none;
+}
+.card_border{
+	border-bottom: 2px solid #c7c7c7;
+	width: 120px;
+	padding-left: 25%;
+	margin-left: 33%;
+}
+/**********************************************************************************************
+					Courses Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Facts Section CSS Start
+***********************************************************************************************/
+.facts{
+	width: 100%;
+	height: auto;
+
+}
+.facts_bg{
+	background-image: url(../img/count.png);
+	background-attachment: fixed;
+	height: auto;
+	width: 100%;
+}
+.custom_row{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/**********************************************************************************************
+					Facts Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+.news{
+	padding-top: 80px;
+}
+.news-heading{
+	padding-bottom: 50px;
+}
+.custom_body{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-color: #f1f1f1 !important;
+}
+.custom_body p{
+	margin: 0px !important;
+	margin-bottom: 5px !important;
+}
+.custom_card_img{
+	width: 230px;
+}
+.custom_body_2{
+	padding: 10px;
+	padding-left: 20px !important;
+}
+.custom_body_2 p{
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-bottom: 1px;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+.testimonial{
+padding-top: 80px;
+background-image: url(../img/lacture_bg.png);
+
+padding-bottom: 80px !important;
+}
+.testimonial-heading{
+	padding-bottom: 50px;
+}
+
+.custom_image{
+	height: 100px !important;
+	width: 100px !important;
+	z-index: 1111;
+
+}
+.z_calsss{
+	z-index: 1111;
+}
+.custom_test_card{
+	padding: 20px !important;
+	padding-top: 80px !important;
+
+}
+.custom_card_main{
+	margin-top: -50px;
+	z-index: -1111;
+	border: 20px solid transparent;
+	padding: 15px;
+	border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 50% round;
+	border-top: none !important;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					News Letter Section CSS Start
+***********************************************************************************************/
+.newsletter{
+padding-top: 80px;
+height: 50vh;
+}
+.newsletter-heading{
+}
+
+input[type=email] {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border:1px solid #fff !important;
+  color: white;
+}
+input[type=email]:focus {
+  border:1px solid #fff !important;
+}
+input[type=email]::placeholder {
+  color:white;
+}
+.mailbtn{
+	padding: 10px 15px;
+	border-color: #9bc887;
+
+}
+/**********************************************************************************************
+					News Letter Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Footer Section CSS Start
+***********************************************************************************************/
+
+.footer{
+	
+	background-color: #1e1d1d;
+}
+.custom_padding_footer{
+	padding-top: 80px;
+}
+.custom_padding_l{
+	padding: 10px;
+	padding-left: 50px;
+}.custom_padding_t{
+	padding-top: 10px;
+}
+.list{
+	list-style: none;
+	padding-top: 20px;
+}
+.footer_text{
+	padding-top: 25px;
+}
+.footer .list li{
+	color: white;
+	padding-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.col-6{
+	padding-left: 0px !important; 
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	/*line-height: 100px;*/
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}
+.custom_list{
+	padding-top: 0px !important;
+	text-align: right !important;
+}
+.custom_list li {
+	height: 35px !important;
+	width: 35px !important;
+	background-color: transparent;
+	border: 1px solid #56ab2f;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+.custom_list li a{
+	text-align: center;
+	padding-right: 0px;
+	font-size: 12px;
+	color: white;
+}
+.c_p{
+	padding-right: 3px;
+}
+.custom_list li a:first-child{
+	
+	padding-right: 10px;
+}
+.custom_list li a:hover{
+	color: #56ab2f;
+}
+/**********************************************************************************************
+					Footer Section CSS End
+***********************************************************************************************/
+
+/**********************************************************************************************
+					 Scroll CSS Start
+***********************************************************************************************/
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+  border-radius: 50%;
+  background-color: #56ab2f;
+}
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
+/**********************************************************************************************
+					 Scroll CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Responsive CSS Start
+***********************************************************************************************/
+@media only screen and (max-width: 797px) {
+  .d_class{
+  	display: none;
+  	color: transparent;
+  }
+  .about_bg{
+  	margin-left: 0px !important;
+  }
+  .custom_card_img{
+  	width: 100%;
+  	height: 280px;
+  }
+  .copy{
+  	text-align: center;
+  }
+  .facts_custom{
+  	text-align: center;
+  	padding-bottom: 10px;
+  }
+  .custom_pt_news{
+  	margin-top: 15px;
+  }
+  .custom_padding_l{
+  	padding-left: 0px !important;
+
+  }
+}
+
+
+@media only screen and (max-width: 360px){
+
+		
+	  .newsletter{
+	padding-top: 80px;
+	height: 70vh;
+}
+
+
+}
+
+
+/**********************************************************************************************
+					Responsive CSS End
+***********************************************************************************************/
